@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+div.first-floor{
+    width: 100%;
+    height: 800px;
+    background:url("../image/banner/banner-1.jpg") no-repeat scroll center 0/cover;
+}
+div.first-floor .main-bg{
+    height: 800px;
+    background: rgba(0,0,0,.5) 0/cover;
+}
+
+div.title-0{
+    background: #fff;
+    width: 62rem;
+    height: 4rem;
+    margin: 0 auto;
+    position: fixed;
+    left: 22rem;
+    z-index: 10;
+}
+div.title-0 img{
+    width: 189px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+div.title-0>ul{
+    list-style: none;
+    float: right;
+    margin-top: 1rem;
+}
+ul.sub{
+    list-style: none;
+    display: block;
+    width: 30px;
+    padding-top: 20px;
+}
+li.menu ul.sub>li{
+    background: #fff;
+    text-align: left;
+    width: 90px;
+    margin-left: 0px;
+}
+li.menu ul.sub>li>a{
+    text-decoration:none;
+    color:#000;
+    display:inline-block;
+    height: 20px;
+}
+li.menu ul.sub li:hover{background:#ddd}
+div.title-0 ul li{
+    float: left;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+div.title-0 ul li a{
+    text-decoration: none;
+    font-size: 5px;
+}
+div.title-0 ul li a:hover{
+    color: #52c5fd;
+}
+div.main-body{
+    height: 400px;
+    width: 400px;
+    margin-left:510px;
+    padding-top: 300px;
+}
+div.main-body>h6{
+    font-size: 60px;
+    width: 750px;
+    color: #ffffff;
+    font-weight: bold;
+}
+div.main-body>p{
+    margin-left: 20px;
+    display: inline-block;
+    width: 670px;
+    margin-top: 40px;
+}
+div.main-body>div.button{
+        width: 200px;
+        height: 40px;
+        transition: all 2s linear;
+        border: 1px solid #222;
+        text-align: center;
+      background: #fff;
+        margin-left: 215px;
+        margin-top: 119px;
+}
+div.main-body>div.button:before{
+    content: "";
+    background: #f8b100;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+}
+div.main-body>div.button>p{
+    color: #222222;
+    margin-top: 10px;
+}
+div.main-body>div.button:hover{
+    background: linear-gradient(to right,#f3c300,#f8b100);
+}
