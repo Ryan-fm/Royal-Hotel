@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+div.second-floor-copy{
+    width:100% ;
+    height: 1100px;
+}
+
+div.first-floor{
+    width: 100%;
+    height: 410px;
+    background:url("../image/about_banner.jpg") no-repeat scroll center 0/cover;
+}
+div.first-floor .main-bg{
+    height: 410px;
+    background: rgba(0,0,0,.5) 0/cover;
+}
+
+div.title-0{
+    background: #fff;
+    width: 50rem;
+    height: 4rem;
+    margin: 0 auto;
+    position: fixed;
+    left: 26rem;
+    z-index: 10;
+}
+div.title-0 img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+div.title-0>ul{
+    list-style: none;
+    float: right;
+    margin-top: 1rem;
+    position: relative;
+}
+ul.sub{
+    list-style: none;
+    display: none;
+    width: 30px;
+    padding-top: 20px;
+}
+li.menu ul.sub>li{
+    background: #fff;
+    text-align: left;
+    width: 90px;
+    margin-left: 0px;
+}
+li.menu ul.sub>li>a{
+    text-decoration:none;
+    color:#000;
+    display:inline-block;
+    height: 20px;
+}
+li.menu ul.sub li:hover{background:#ddd}
+div.title-0 ul li{
+    float: left;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+div.title-0 ul li a{
+    text-decoration: none;
+    font-size: 5px;
+}
+div.title-0 ul li a:hover{
+    color: #52c5fd;
+}
+
+div.body-0{
+    width:50rem;
+    height: 25rem;
+    margin: 0 auto ;
+    text-align: center;
+    padding-top: 9rem;
+}
+div.body-1{
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    color: inherit;
+}
+div.body-2{
+    font-size: 15px;
+    line-height: 60px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+div.second-floor{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    color: #000000;
+}
+div.second-floor>div.first-step{
+    padding-top: 6rem;
+    line-height: 3rem;
+}
+div.second-floor>div.first-step h5{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #222;
+}
+
+div.second-floor>div.second-step{
+    line-height:2rem;
+    padding-top: 1rem;
+}
+div.second-floor>div.second-step p{
+    line-height: 30px;
+    font-size: 0.9rem;
+    color: #777777
+}
+div.second-floor>div.third-step ul{
+    list-style: none;
+    padding-top: 4rem;
+    margin-left:19rem;
+}
+div.second-floor>div.third-step>div.create-hg{
+    clear:both;
+}
+
+div.second-floor>div.third-step>ul>li{
+    float: left;
+    height: 24rem;
+    width: 16rem;
+    margin-right: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+div.second-floor>div.third-step>ul>li img{
+    transition: all 0.4s linear;
+
+}
+div.second-floor>div.third-step>ul>li img:hover{
+    transform: scale(1.19);
+
+}
+div.second-floor>div.third-step>ul>li>p{
+    background: #f3c300;
+    width: 9rem;
+    line-height: 1.8rem;
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 9rem;
+    left: 4rem;
+}
+div.second-floor>div.third-step>ul>li>p a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: inherit;
+    transition: all 0.3s linear;
+}
+div.second-floor>div.third-step>ul>li>p a:hover{
+    background: linear-gradient(to right,#f3c300,#f8b100 );
+}
+div.second-floor>div.third-step>ul>li h6{
+    font-size: 1.3rem;
+    font-weight:600 ;
+    color: #222222;
+    margin-top: 1.5rem;
+}
+div.second-floor>div.third-step>ul>li h5{
+    font-size: 1.5rem;
+    color: #52c5fd;
+    margin-top: 1rem;
+}
+div.second-floor>div.third-step>ul>li h5 small{
+    font-size: 0.5rem;
+}
+div.bookRoom{
+    width: 100%;
+    height: 100px;
+}
+div.footer{
+    margin: 6rem auto;
+    text-align: center;
+    width: 65rem;
+    height: 11rem;
+    background-color:#000 ;
+}
+div.footer>div{
+    float: left;
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+div.footer div>p:last-child {
+    margin-left: 3.5rem;
+    margin-top: 0.5rem;
+}
+div.footer>div>ul{
+    list-style: none;
+    width: 35rem;
+
+}
+div.footer>div>ul>li{
+    float: left;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+input.input-set{
+    display: inline-block;
+    width: 9rem;
+    line-height: 1.8rem;
+    border:1px solid #2b3146;
+    background: transparent;
+}
+#likeButton{
+    background: #f3c300;
+    width: 9rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+#likeButton a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: inherit;
+    transition: all 0.3s linear;
+}
+#likeButton a:hover{
+    background: linear-gradient(to right,#f3c300,#f8b100 );
+}
